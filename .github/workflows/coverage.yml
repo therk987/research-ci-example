@@ -32,7 +32,7 @@ jobs:
       
       - name: Upload coverage to code climate
         env:
-          CODECLIMATE_REPO_TOKEN: dba2b629eaa09aca305ce9e02eff1ed91f97e3ed8af52ef3f59562702825f562
+          CODECLIMATE_REPO_TOKEN: 토큰넣으셈!
         run: |
           codeclimate-test-reporter
           
